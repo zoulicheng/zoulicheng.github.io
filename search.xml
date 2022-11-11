@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>网站搭建教程</title>
+      <link href="/project/2022/11/11/article2/"/>
+      <url>/project/2022/11/11/article2/</url>
+      
+        <content type="html"><![CDATA[<h1 id="网站搭建过程"><a href="#网站搭建过程" class="headerlink" title="网站搭建过程"></a>网站搭建过程</h1><p>这里会记录博客网站搭建的过程以及代码</p><p><img src="/project/img/%E5%87%89%E5%AE%AB%E6%98%A5%E6%97%A5.jpg" alt="凉宫春日"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第一篇文章</title>
+      <link href="/project/2022/11/09/2022-11-11-%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/project/2022/11/09/2022-11-11-%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="本站正式上线！"><a href="#本站正式上线！" class="headerlink" title="本站正式上线！"></a>本站正式上线！</h1><h2 id="建站目的"><a href="#建站目的" class="headerlink" title="建站目的"></a>建站目的</h2><p>关于为什么要建这个网站，因为之前也断断续续地写过很多文档，散落在各个博客网站，最后自己想找以前写的文档都有点困难。因此决定自己搞个博客来集中记录一些技术文档和生活感悟<del>，顺便放点稀有资源上来</del></p><p>主要是为了自己看的方便，如果能帮到其他人就更好啦</p><p>网站基于Hexo框架和butterfly主题，许多功能还在开发中…</p><p>这篇文章会记录新上线的功能以及代码</p><p>—2022&#x2F;11&#x2F;12 上线评论系统，侧边栏微信图标—</p><p>评论系统：在_config.butterfly.yml配置下列代码</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">comments:</span></span><br><span class="line">  <span class="comment"># Up to two comments system, the first will be shown as default</span></span><br><span class="line">  <span class="comment"># Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk</span></span><br><span class="line">  <span class="attr">use:</span> <span class="string">Valine,Disqus</span></span><br><span class="line">  <span class="attr">text:</span> <span class="literal">true</span> <span class="comment"># Display the comment name next to the button</span></span><br><span class="line">  <span class="comment"># lazyload: The comment system will be load when comment element enters the browser&#x27;s viewport.</span></span><br><span class="line">  <span class="comment"># If you set it to true, the comment count will be invalid</span></span><br><span class="line">  <span class="attr">lazyload:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">count:</span> <span class="literal">true</span> <span class="comment"># Display comment count in post&#x27;s top_img</span></span><br><span class="line">  <span class="attr">card_post_count:</span> <span class="literal">false</span> <span class="comment"># Display comment count in Home Page</span></span><br></pre></td></tr></table></figure><p>侧边栏微信图标：在_config.butterfly.yml配置下列代码</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># social settings (社交圖標設置)</span></span><br><span class="line"><span class="comment"># formal:</span></span><br><span class="line"><span class="comment">#   icon: link || the description</span></span><br><span class="line"><span class="attr">social:</span></span><br><span class="line">   <span class="attr">fab fa-github:</span> <span class="string">https://github.com/zoulicheng</span> <span class="string">||</span> <span class="string">Github</span></span><br><span class="line">   <span class="attr">fas fa-envelope:</span> <span class="string">mailto:575969960@qq.com</span> <span class="string">||</span> <span class="string">Email</span></span><br><span class="line">   <span class="attr">fa-brands fa-weixin:</span> <span class="string">/img/微信.jpg</span> <span class="string">||</span> <span class="string">weixin</span></span><br></pre></td></tr></table></figure><p>–待续–</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
