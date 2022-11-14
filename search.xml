@@ -29,6 +29,31 @@
     
     
     <entry>
+      <title>git常见报错</title>
+      <link href="/posts/8a4115fc.html"/>
+      <url>/posts/8a4115fc.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="这个文章记录了一些常见的git报错问题（大部分是由于网络或者代理设置不到位）"><a href="#这个文章记录了一些常见的git报错问题（大部分是由于网络或者代理设置不到位）" class="headerlink" title="这个文章记录了一些常见的git报错问题（大部分是由于网络或者代理设置不到位）"></a>这个文章记录了一些常见的git报错问题（大部分是由于网络或者代理设置不到位）</h2><p><strong>错误1：</strong> fatal: unable to access : Failed to connect to github.com port 443: Timed out</p><p><strong>解决办法：</strong> git config –global http.proxy <a href="http://127.0.0.1:7890/">http://127.0.0.1:7890</a></p><p><strong>错误2：</strong> fatal: unable to access : OpenSSL SSL_read: Connection was reset, errno 10054</p><p><strong>解决办法：</strong>git config –global http.sslVerify “false”</p><p><strong>错误n：</strong></p><p><strong>解决办法：</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术相关 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 运维技术 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使用hexo+Aplayer定制网站左下角播放器</title>
       <link href="/posts/9daba997.html"/>
       <url>/posts/9daba997.html</url>
