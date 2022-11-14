@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zoulicheng.cn/music/index.html</loc>
+    
+    <lastmod>2022-11-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zoulicheng.cn/movies/index.html</loc>
+    
+    <lastmod>2022-11-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zoulicheng.cn/gallery/index.html</loc>
+    
+    <lastmod>2022-11-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zoulicheng.cn/categories/index.html</loc>
+    
+    <lastmod>2022-11-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zoulicheng.cn/about/index.html</loc>
+    
+    <lastmod>2022-11-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zoulicheng.cn/link/index.html</loc>
     
     <lastmod>2022-11-14</lastmod>
@@ -29,33 +74,6 @@
   </url>
   
   <url>
-    <loc>https://zoulicheng.cn/about/index.html</loc>
-    
-    <lastmod>2022-11-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zoulicheng.cn/movies/index.html</loc>
-    
-    <lastmod>2022-11-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zoulicheng.cn/music/index.html</loc>
-    
-    <lastmod>2022-11-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zoulicheng.cn/posts/d7b9bbf7.html</loc>
     
     <lastmod>2022-11-13</lastmod>
@@ -68,15 +86,6 @@
     <loc>https://zoulicheng.cn/posts/bb0369f5.html</loc>
     
     <lastmod>2022-11-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zoulicheng.cn/categories/index.html</loc>
-    
-    <lastmod>2022-11-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -100,15 +109,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://zoulicheng.cn/gallery/index.html</loc>
-    
-    <lastmod>2022-11-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://zoulicheng.cn/</loc>
@@ -117,6 +117,13 @@
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>https://zoulicheng.cn/tags/%E5%88%9D%E5%A7%8B%E4%B9%8B%E7%81%AB/</loc>
+    <lastmod>2022-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://zoulicheng.cn/tags/hexo%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/</loc>
@@ -132,24 +139,17 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://zoulicheng.cn/tags/%E5%88%9D%E5%A7%8B%E4%B9%8B%E7%81%AB/</loc>
-    <lastmod>2022-11-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
-    <loc>https://zoulicheng.cn/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/</loc>
+    <loc>https://zoulicheng.cn/categories/%E7%94%9F%E6%B4%BB%E7%9B%B8%E5%85%B3/</loc>
     <lastmod>2022-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zoulicheng.cn/categories/%E7%94%9F%E6%B4%BB%E7%9B%B8%E5%85%B3/</loc>
+    <loc>https://zoulicheng.cn/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/</loc>
     <lastmod>2022-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
