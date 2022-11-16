@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>jsdelivr+github访问失败问题</title>
+      <link href="/posts/38c7e144.html"/>
+      <url>/posts/38c7e144.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="jsdelivr-github访问失败问题"><a href="#jsdelivr-github访问失败问题" class="headerlink" title="jsdelivr+github访问失败问题"></a>jsdelivr+github访问失败问题</h1><h2 id="1-问题排查"><a href="#1-问题排查" class="headerlink" title="1 问题排查"></a>1 问题排查</h2><p>今天一早起来发现打开自己网站用了一分多钟，于是打开Chrome F12排查问题，</p><p><img src="https://zoulicheng.oss-cn-shanghai.aliyuncs.com/ScreShot/image-20221116141809982.png" alt="image-20221116141809982">看来问题出在busuanzi网站访问统计插件和三个字体文件上，自定义的ZhuZiAWan字体文件资源貌似失效了，查了下，是jsdelivr的cdn资源地址出了问题<img src="https://zoulicheng.oss-cn-shanghai.aliyuncs.com/ScreShot/image-20221116142113315.png" alt="image-20221116142113315"></p><p>报错：Package size exceeded the configured limit of 50 MB. Try <a href="https://github.com/zoulicheng/blog_source/tree/master/ZhuZiAWan.ttf">https://github.com/zoulicheng/blog_source/tree/master/ZhuZiAWan.ttf</a> instead.</p><h2 id="2-问题解决"><a href="#2-问题解决" class="headerlink" title="2 问题解决"></a>2 问题解决</h2><p>查了一下，不能怪人家jsdelivr，是github上资源路径被我改了（我在本地多建了个文件夹放css和js以及字体文件，Git push上去忘了在网站上同步改资源路径了），在定义字体资源路径的custom.css上进行修改</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: <span class="string">&#x27;tzy&#x27;</span>;</span><br><span class="line">  <span class="comment">/* 字体名自定义即可 */</span></span><br><span class="line">  <span class="comment">/* 原地址src: url(&#x27;https://cdn.jsdelivr.net/gh/zoulicheng/blog_source/ZhuZiAWan.ttf&#x27;); 修改如下*/</span></span><br><span class="line">  <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">&#x27;https://cdn.jsdelivr.net/gh/zoulicheng/blog_source/css/ZhuZiAWan.ttf&#x27;</span>);</span><br><span class="line">  <span class="comment">/* 字体文件路径 */</span></span><br><span class="line">  <span class="attribute">font-display</span>: swap;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>然后再把修改好后的css文件上传到自己的cdn云上即可。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术相关 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 运维技术 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>基于docker+gitlab的博客CI/CD的搭建</title>
       <link href="/posts/a6995aa1.html"/>
       <url>/posts/a6995aa1.html</url>
