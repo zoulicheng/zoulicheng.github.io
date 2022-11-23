@@ -28,7 +28,11 @@ document.addEventListener('DOMContentLoaded', function () {
   const initAdjust = () => {
     adjustMenu(true)
     $nav.classList.add('show')
+    //自己加入的代码
+    console.log('调用成功！')
+    categoriesBarActive()
   }
+
 
   // sidebar menus
   const sidebarFn = {
