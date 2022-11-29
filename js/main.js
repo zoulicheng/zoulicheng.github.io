@@ -30,7 +30,6 @@ document.addEventListener('DOMContentLoaded', function () {
     $nav.classList.add('show')
     //自己加入的代码
     console.log('调用成功！')
-    categoriesBarActive()
   }
 
 
