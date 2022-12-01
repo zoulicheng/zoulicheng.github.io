@@ -3570,9 +3570,10 @@ h1.page-title + .tag-cloud-list {
 }
 #post-info .post-title {
   margin-bottom: 8px;
+  font-weight: bold;
   color: var(--white);
   font-weight: normal;
-  font-size: 2.5em;
+  font-size: 4.5em;
   line-height: 1.5;
   -webkit-line-clamp: 3;
 }
@@ -3586,7 +3587,7 @@ h1.page-title + .tag-cloud-list {
 }
 #post-info #post-meta {
   color: var(--light-grey);
-  font-size: 95%;
+  font-size: 120%;
 }
 @media screen and (min-width: 768px) {
   #post-info #post-meta > .meta-secondline > span:first-child {
@@ -3620,7 +3621,7 @@ h1.page-title + .tag-cloud-list {
   transition: all 0.3s ease-out;
 }
 #post-info #post-meta a:hover {
-  color: #49b1f5;
+  color: #b9b9b9;
   text-decoration: underline;
 }
 #nav {
