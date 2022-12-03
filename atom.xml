@@ -6,7 +6,7 @@
   <link href="https://zoulicheng.cn/atom.xml" rel="self"/>
   
   <link href="https://zoulicheng.cn/"/>
-  <updated>2022-12-01T07:32:34.000Z</updated>
+  <updated>2022-12-03T07:49:32.000Z</updated>
   <id>https://zoulicheng.cn/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>感染新冠后...</title>
+    <link href="https://zoulicheng.cn/posts/2c6b622e.html"/>
+    <id>https://zoulicheng.cn/posts/2c6b622e.html</id>
+    <published>2022-12-03T07:49:32.000Z</published>
+    <updated>2022-12-03T07:49:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="感染新冠后…"><a href="#感染新冠后…" class="headerlink" title="感染新冠后…"></a>感染新冠后…</h1><p><strong>这个文章记录一下感染新冠的过程以及症状</strong></p><h2 id="前情提要："><a href="#前情提要：" class="headerlink" title="前情提要："></a><strong>前情提要：</strong></h2><p><strong>2022-11-27 到 2022-12-1</strong> </p><p>由于研究院频繁出现阳性，从上周日（2022-11-27）开始全体研究生在宿舍进行封闭式隔离，每日进行<strong>2-3次</strong>的核酸检测</p><p>这期间的核酸检测<strong>均为阴性</strong>，直到昨天下午（2022-12-2）四五点左右进行了最后一次核酸检测，今天（2022-12-3）早晨得知结果为<strong>阳性</strong>，由此断定感染时间为 2022-12-1 至 2022-12-2 的某个时间点。</p><p><strong>2022-12-2</strong> </p><p>晚上9点左右从宿舍坐大巴到达酒店进行隔离。</p><p><img src="https://zoulicheng.oss-cn-shanghai.aliyuncs.com/ScreShot/image-20221203161909953.png" alt="image-20221203161909953" style="zoom: 33%;" /></p><h2 id="感染前于宿舍隔离采取的措施："><a href="#感染前于宿舍隔离采取的措施：" class="headerlink" title="感染前于宿舍隔离采取的措施："></a><strong>感染前于宿舍隔离采取的措施：</strong></h2><p><strong>2022-11-27 到 2022-12-2</strong> </p><p>一个人的宿舍隔离期间，日常生活从未踏出宿舍门口，三餐由院里食堂送到门口，每天接触的人只有<strong>上门核酸人员</strong>。同时封好厕所门，用脸盆堵住下水道口，马桶盖紧闭，打开窗户通风<del>，北京零下 4° 还是挺冷的哈</del>，需要上厕所时，先进行酒精消毒，戴口罩（未严格执行）上厕所洗澡。</p><h2 id="感染后症状记录："><a href="#感染后症状记录：" class="headerlink" title="感染后症状记录："></a>感染后症状记录：</h2><p> <strong>2022-12-2</strong> </p><p>感染，没有任何感觉，夜里会做噩梦（平常也会做），直到隔天早上核酸检测才发现被感染</p><p> <strong>2022-12-3</strong> </p><p>早上得知检测结果为阳性，感觉喉咙有点干，喝了一些水，吃了 3*3 组连花清瘟胶囊。酒店里饭挺好吃的</p><p><img src="https://zoulicheng.oss-cn-shanghai.aliyuncs.com/ScreShot/image-20221203161219039.png" alt="image-20221203161219039" style="zoom: 33%;" /></p><p>弹了一天吉他，酒店的网络带宽只有 5M ，颓废…</p><p>做了 2*30 组俯卧撑，体能还没出现明显下降</p><p> <strong>2022-12-4</strong> </p><p>待更新…</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="生活相关" scheme="https://zoulicheng.cn/categories/%E7%94%9F%E6%B4%BB%E7%9B%B8%E5%85%B3/"/>
+    
+    
+    <category term="我的2022" scheme="https://zoulicheng.cn/tags/%E6%88%91%E7%9A%842022/"/>
+    
+  </entry>
   
   <entry>
     <title>gitignore文件语法</title>
