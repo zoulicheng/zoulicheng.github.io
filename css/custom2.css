@@ -1,0 +1,55 @@
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>/* 页脚与头图透明 */
+#footer {
+  background: transparent !important;
+}
+
+#page-header {
+  background: transparent !important;
+}
+
+/* 白天模式遮罩透明 */
+#footer::before {
+  background: transparent !important;
+}
+
+#page-header::before {
+  background: transparent !important;
+}
+
+/* 夜间模式遮罩透明 */
+[data-theme="dark"] #footer::before {
+  background: transparent !important;
+}
+
+[data-theme="dark"] #page-header::before {
+  background: transparent !important;
+}
+
+@font-face {
+  font-family: 'tzy';
+  /* 字体名自定义即可 */
+  /* src: url('https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/font/ZhuZiAWan.woff2'); */
+  /* src: url('https://zoulicheng.oss-cn-shanghai.aliyuncs.com/cssJs/ZhuZiAWan.ttf'); */
+  /* src: url('https://cdn.jsdelivr.net/gh/zoulicheng/blog_source/css/ZhuZiAWan.ttf'); */
+  /* src: url('https://www.zoulicheng.cn/css/ZhuZiAWan.ttf'); */
+  src: url('https://unpkg.com/blog_data@1.0.1/css/ZhuZiAWan.ttf');
+  /* 字体文件路径 */
+  font-display: swap;
+}
+
+body, 
+.author-info__description {
+  font-family: tzy !important;
+}
+
+.fa-search{
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* 这是iconfont你自己选的图标的代码 */
+.fa-search:before {
+  content: "\e60d";
+}

@@ -29,8 +29,8 @@
   font-family: 'tzy';
   /* 字体名自定义即可 */
   /* src: url('https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/font/ZhuZiAWan.woff2'); */
-  /* src: url('https://zoulicheng.oss-cn-shanghai.aliyuncs.com/cssJs/ZhuZiAWan.ttf'); */
-  src: url('/fontsdest/ZhuZiAWan.ttf') format("truetype");
+  src: url('https://zoulicheng.oss-cn-shanghai.aliyuncs.com/cssJs/ZhuZiAWan.ttf') format("truetype");
+  /* src: url('https://zoulicheng.cn/fontsdest/ZhuZiAWan.ttf') format("truetype"); */
   /* src: url('https://cdn.jsdelivr.net/gh/zoulicheng/blog_source/css/ZhuZiAWan.ttf'); */
   /* src: url('https://www.zoulicheng.cn/css/ZhuZiAWan.ttf'); */
   /* src: url('https://unpkg.com/blog_data@1.0.1/css/ZhuZiAWan.ttf'); */
